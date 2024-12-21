@@ -8,7 +8,7 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QGuiApplication
 
 # 소프트웨어 렌더링 활성화
-QGuiApplication.setAttribute(Qt.AA_UseSoftwareOpenGL) 
+QGuiApplication.setAttribute(Qt.AA_UseSoftwareOpenGL)
 
 
 class ChatClient(QWidget):
